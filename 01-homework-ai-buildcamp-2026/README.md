@@ -104,15 +104,13 @@ python rag.py "python function definition" --structured
 The first version of `convert_books.py` used the `markitdown` package to turn
 PDFs into text. This worked fine for most books, but one PDF, Think Python,
 had a problem: many words in the extracted text were missing the space between
-them, for example "Squareroots" instead of "Square roots". This is not a bug in
-our code. It comes from how that specific PDF stores its text, and it also
-happened when testing with `pdfplumber`, a different extraction library.
+them, for example "Squareroots" instead of "Square roots". It comes from how that specific PDF stores its text, and it also happened when testing with `pdfplumber`, a different extraction library.
 
-This mattered because our search relies on matching words. If a book's text is
+This mattered because the search relies on matching words. If a book's text is
 full of joined-up words, normal search terms will not match its content well,
 and the book will barely show up in results, even when it is the most relevant
 one.
 
-We tested PyMuPDF on the same PDF and it extracted the text with the spaces in
-the right place. So we switched to it for all books to keep the pipeline
+I tested PyMuPDF on the same PDF and it extracted the text with the spaces in
+the right place. So I switched to it for all books to keep the pipeline
 consistent, and the search results improved right away for Think Python.
