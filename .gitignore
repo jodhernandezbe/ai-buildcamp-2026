@@ -1,0 +1,12 @@
+.env
+
+.ipynb_checkpoints
+
+notebooks
+src
+
+01-homework-ai-buildcamp-2026/data/books_pdf
+01-homework-ai-buildcamp-2026/data/books_text
+01-homework-ai-buildcamp-2026/data/books_chunks
+01-homework-ai-buildcamp-2026/data/index.json
+01-homework-ai-buildcamp-2026/__pycache__
