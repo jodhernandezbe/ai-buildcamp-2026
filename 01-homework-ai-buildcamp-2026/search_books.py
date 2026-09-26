@@ -3,8 +3,7 @@ from pathlib import Path
 
 from minsearch import Index
 
-BASE_DIR = Path(__file__).resolve().parent
-INDEX_PATH = BASE_DIR / "data" / "index.json"
+from index_books import BACKENDS, DEFAULT_BACKEND, index_path_for
 
 
 def parse_args() -> argparse.Namespace:
@@ -17,10 +16,16 @@ def parse_args() -> argparse.Namespace:
         help="Number of results to return (default: 5)",
     )
     parser.add_argument(
+        "--backend",
+        choices=BACKENDS,
+        default=DEFAULT_BACKEND,
+        help=f"Which index to search, by the backend used to build it (default: {DEFAULT_BACKEND})",
+    )
+    parser.add_argument(
         "--index-path",
         type=Path,
-        default=INDEX_PATH,
-        help=f"Path to the saved index (default: {INDEX_PATH})",
+        default=None,
+        help="Path to a specific index file (overrides --backend)",
     )
     return parser.parse_args()
 
@@ -28,15 +33,17 @@ def parse_args() -> argparse.Namespace:
 def search_books(
         query: str,
         num_results: int = 5,
-        index_path: Path = INDEX_PATH,
+        backend: str = DEFAULT_BACKEND,
+        index_path: Path | None = None,
         ) -> list[dict]:
+    index_path = index_path or index_path_for(backend)
     index = Index.load(index_path)
     return index.search(query, num_results=num_results)
 
 
 def main() -> None:
     args = parse_args()
-    results = search_books(args.query, args.num_results, args.index_path)
+    results = search_books(args.query, args.num_results, args.backend, args.index_path)
 
     if not results:
         print("No results found.")

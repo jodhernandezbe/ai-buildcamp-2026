@@ -11,6 +11,7 @@ dependencies = [
     "dirdotenv>=0.0.3",
     "gitsource>=0.0.5",
     "jupyter>=1.1.1",
+    "markitdown[pdf]>=0.1.8",
     "minsearch>=0.2.0",
     "openai>=3.16.2",
     "pydantic>=2.13.5",

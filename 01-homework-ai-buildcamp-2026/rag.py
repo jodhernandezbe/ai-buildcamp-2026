@@ -7,7 +7,7 @@ from minsearch import Index
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-from index_books import INDEX_PATH
+from index_books import BACKENDS, DEFAULT_BACKEND, index_path_for
 
 INSTRUCTIONS = """
 You're a course assistant, your task is to answer the QUESTION from the
@@ -49,10 +49,16 @@ def parse_args() -> argparse.Namespace:
         help=f"Number of chunks to retrieve for context (default: {DEFAULT_NUM_RESULTS})",
     )
     parser.add_argument(
+        "--backend",
+        choices=BACKENDS,
+        default=DEFAULT_BACKEND,
+        help=f"Which index to use, by the backend used to build it (default: {DEFAULT_BACKEND})",
+    )
+    parser.add_argument(
         "--index-path",
         type=Path,
-        default=INDEX_PATH,
-        help=f"Path to the saved index (default: {INDEX_PATH})",
+        default=None,
+        help="Path to a specific index file (overrides --backend)",
     )
     parser.add_argument(
         "--model",
@@ -115,11 +121,13 @@ def llm(
 
 def rag(
         query: str,
-        index_path: Path = INDEX_PATH,
+        backend: str = DEFAULT_BACKEND,
+        index_path: Path | None = None,
         num_results: int = DEFAULT_NUM_RESULTS,
         model: str = DEFAULT_MODEL,
         structured: bool = False,
         ) -> tuple[Union[str, RAGResponse], int, int]:
+    index_path = index_path or index_path_for(backend)
     index = Index.load(index_path)
     openai_client = OpenAI()
 
@@ -132,6 +140,7 @@ def main() -> None:
     args = parse_args()
     answer, input_tokens, output_tokens = rag(
         args.query,
+        args.backend,
         args.index_path,
         args.num_results,
         args.model,
