@@ -3,10 +3,12 @@
 .ipynb_checkpoints
 
 notebooks
+scripts
 src
+__pycache__
 
+# Ho
 01-homework-ai-buildcamp-2026/data/books_pdf
 01-homework-ai-buildcamp-2026/data/books_text
 01-homework-ai-buildcamp-2026/data/books_chunks
 01-homework-ai-buildcamp-2026/data/index
-01-homework-ai-buildcamp-2026/__pycache__
