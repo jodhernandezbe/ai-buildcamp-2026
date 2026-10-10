@@ -1,7 +1,7 @@
-# Week 3 Homework: AI Engineering Buildcamp - Wikipedia Agent
+# Homework 2 (Week 3): AI Engineering Buildcamp - Wikipedia Agent
 
-This folder contains the homework for the third week of the course. The goal is
-to build an agent that answers questions by searching Wikipedia and reading
+This folder contains the second homework, which belongs to the third week of the
+course. The goal is to build an agent that answers questions by searching Wikipedia and reading
 page content. It uses LangChain as the framework and OpenAI as the inference
 provider.
 

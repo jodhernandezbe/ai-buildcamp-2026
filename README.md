@@ -6,3 +6,4 @@ Each week's homework lives in its own folder.
 ## Homework
 
 - [Week 1: RAG](01-homework-ai-buildcamp-2026/README.md)
+- [Week 3: Wikipedia agent](02-homework-ai-buildcamp-2026/README.md)
