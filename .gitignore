@@ -14,3 +14,6 @@ __pycache__
 01-homework-ai-buildcamp-2026/data/index
 03-homework-ai-buildcamp-2026/data/*
 !03-homework-ai-buildcamp-2026/data/.keep
+
+04-homework-ai-buildcamp-2026/logs/*
+!04-homework-ai-buildcamp-2026/logs/.keep
