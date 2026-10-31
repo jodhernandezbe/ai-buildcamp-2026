@@ -1,0 +1,189 @@
+question,category,type,output,label,reason
+How do I make spaghetti carbonara?,specific-recipe,direct,"Here's how to make **Spaghetti Carbonara**:
+
+### Ingredients:
+- Spaghetti
+- Guanciale
+- Egg yolks
+- Pecorino Romano cheese
+- Black pepper
+- Salt
+
+### Instructions:
+1. **Cook the Pasta**:
+   - Boil water in a large pot, add salt, and cook the spaghetti according to package instructions until al dente.
+
+2. **Crisp the Guanciale**:
+   - In a pan, cook the guanciale over medium heat until it becomes crispy.
+
+3. **Prepare the Egg Mixture**:
+   - In a bowl, whisk together the egg yolks with grated pecorino Romano cheese and a generous amount of black pepper.
+
+4. **Combine**:
+   - Once the spaghetti is cooked, reserve some pasta water and drain the rest.
+   - Add the hot spaghetti to the pan with the crispy guanciale, then remove the pan from heat.
+   - Quickly stir in the egg mixture, mixing thoroughly. The residual heat will gently cook the eggs, creating a creamy sauce. 
+
+5. **Adjust Consistency**:
+   - If the sauce is too thick, add some reserved pasta water a little at a time until you reach the desired creaminess.
+
+6. **Serve**:
+   - Serve immediately with extra grated pecorino on top and a sprinkle of black pepper.
+
+Enjoy your delicious carbonara!",good,
+What can I cook with chicken and coconut milk?,ingredient-search,ingredient-based,"You can cook **Thai Green Curry** with chicken and coconut milk. Here's the recipe:
+
+### Thai Green Curry
+- **Cuisine**: Thai
+- **Difficulty**: Medium
+- **Prep Time**: 20 minutes
+- **Cook Time**: 25 minutes
+- **Servings**: 4
+
+#### Ingredients:
+- 500g chicken thigh
+- 400ml coconut milk
+- 2 tablespoons green curry paste
+- 100g bamboo shoots
+- A handful of Thai basil
+- 2 tablespoons fish sauce
+- 1 tablespoon palm sugar
+- 1 eggplant, sliced
+- 1 bell pepper, sliced
+- Jasmine rice (for serving)
+
+#### Instructions:
+1. Heat the coconut cream in a wok until the oil separates.
+2. Fry the curry paste for about 2 minutes.
+3. Add the sliced chicken and cook until sealed.
+4. Pour in the coconut milk and bring to a simmer.
+5. Add the eggplant and bamboo shoots, cooking for about 10 minutes.
+6. Season with fish sauce and palm sugar.
+7. Add the bell pepper and Thai basil.
+8. Serve over jasmine rice.
+
+Enjoy your spicy coconut dish!",good,
+I want something easy and healthy for dinner,preference,vague,"Here are some easy and healthy dinner options for you:
+
+1. **Vegetable Stir Fry (Chinese)**
+   - **Prep Time:** 15 minutes
+   - **Cook Time:** 10 minutes
+   - **Serves:** 3
+   - **Ingredients:** Broccoli, bell pepper, carrot, snap peas, soy sauce, sesame oil, garlic, ginger, cornstarch, rice.
+   - **Tags:** Vegetarian, vegan, quick, healthy.
+
+2. **Miso Soup (Japanese)**
+   - **Prep Time:** 5 minutes
+   - **Cook Time:** 10 minutes
+   - **Serves:** 4
+   - **Ingredients:** Dashi stock, white miso paste, silken tofu, wakame seaweed, green onion.
+   - **Tags:** Soup, quick, healthy, vegan-adaptable.
+
+3. **Greek Salad (Greek)**
+   - **Prep Time:** 10 minutes
+   - **Cook Time:** 0 minutes
+   - **Serves:** 4
+   - **Ingredients:** Cucumber, tomato, red onion, Kalamata olives, feta cheese, olive oil, oregano, red wine vinegar.
+   - **Tags:** Vegetarian, salad, no-cook, healthy.
+
+Would you like more details or instructions for any of these recipes?",good,
+How do I make sushi?,missing-recipe,not-in-collection,"I couldn't find a specific sushi recipe. However, I can guide you on the basic elements involved in making sushi! Here's a general outline:
+
+### Ingredients:
+1. **Sushi Rice**: Short-grain rice seasoned with vinegar, sugar, and salt.
+2. **Nori**: Seaweed sheets used to roll the sushi.
+3. **Fillings**: Common fillings include raw fish (like salmon or tuna), cooked shrimp, vegetables (like cucumber or avocado), and cream cheese.
+4. **Soy Sauce**: For dipping.
+5. **Wasabi and Pickled Ginger**: Optional condiments.
+
+### Instructions:
+1. **Make Sushi Rice**:
+   - Rinse 2 cups of sushi rice until the water runs clear.
+   - Cook the rice according to package instructions. Once cooked, mix with a mixture of rice vinegar, sugar, and salt.
+
+2. **Prepare Fillings**:
+   - Slice your chosen fillings into strips.
+
+3. **Roll Sushi**:
+   - Place a sheet of nori on a bamboo mat.
+   - Spread a thin layer of sushi rice on the nori, leaving a small edge free at the top.
+   - Arrange your fillings in a line across the rice.
+   - Using the bamboo mat, roll the sushi tightly away from you, tucking in fillings as you go.
+   - Seal the edge of the nori with a bit of water.
+
+4. **Slice and Serve**:
+   - Use a sharp knife to slice the roll into bite-sized pieces.
+   - Serve with soy sauce, wasabi, and pickled ginger.
+
+If you're looking for a specific type of sushi or have any other questions about it, feel free to ask!",good,
+What temperature should I set my oven to for the lava cake?,recipe-detail,specific,"For baking chocolate lava cake, you should set your oven to **425°F (220°C)**. Bake it for **12-14 minutes** until the edges are firm but the center remains soft. Enjoy your baking!",good,
+I want pasta,different-phrasing,vague,"I found a recipe for **Spaghetti Carbonara**. Here are the details:
+
+- **Cuisine**: Italian
+- **Preparation Time**: 10 minutes
+- **Cooking Time**: 20 minutes
+- **Servings**: 4
+
+### Ingredients:
+- Spaghetti
+- Guanciale
+- Egg yolks
+- Pecorino Romano
+- Black pepper
+- Salt
+
+Would you like the full instructions for preparing this dish?",good,
+What Italian dishes do you have?,different-phrasing,browse-collection,"Here are some Italian dishes I found:
+
+1. **Classic Margherita Pizza**
+   - **Prep Time:** 20 min
+   - **Cook Time:** 15 min
+   - **Serves:** 4
+   - **Ingredients:** Pizza dough, San Marzano tomatoes, fresh mozzarella, fresh basil, olive oil, salt
+   - **Tags:** Vegetarian, Classic
+
+2. **Spaghetti Carbonara**
+   - **Prep Time:** 10 min
+   - **Cook Time:** 20 min
+   - **Serves:** 4
+   - **Ingredients:** Spaghetti, guanciale, egg yolks, pecorino romano, black pepper, salt
+   - **Tags:** Classic, Pasta
+
+3. **Mushroom Risotto**
+   - **Prep Time:** 10 min
+   - **Cook Time:** 35 min
+   - **Serves:** 4
+   - **Ingredients:** Arborio rice, mixed mushrooms, onion, garlic, white wine, vegetable broth, parmesan cheese, butter, olive oil, thyme
+   - **Tags:** Vegetarian, Comfort Food
+
+If you're interested in any specific recipe, let me know and I can provide more details!",good,
+What should I cook tonight?,different-phrasing,vague,"To help you decide what to cook tonight, could you please share any preferences you have? For example, are you looking for a specific cuisine, type of meal (like vegetarian, meat-based, etc.), or any particular ingredients you'd like to use?",good,
+Can I use bacon instead of guanciale in carbonara?,substitution,not-in-recipe,"Yes, you can use bacon instead of guanciale in carbonara. While the flavor will be slightly different—guanciale has a richer and more savory taste due to its higher fat content—bacon can still provide a delicious result. Just be mindful of the saltiness, as bacon can be saltier than guanciale. Adjust the seasoning accordingly in your recipe!",bad,hallucination
+Is the Caesar salad vegetarian?,dietary,check-ingredients,"A traditional Caesar salad is not vegetarian because it typically contains anchovies in the dressing. Additionally, some recipes may use Parmesan cheese made with animal rennet, which would also make it non-vegetarian. 
+
+If you're looking for a vegetarian version, you can substitute the anchovies with other flavor enhancers, and ensure the cheese used is vegetarian-friendly. Would you like a recipe for a vegetarian Caesar salad?",bad,hallucination
+Is the Caesar salad gluten-free?,dietary,check-ingredients,"Traditional Caesar salad contains croutons, which are typically made from bread and therefore not gluten-free. However, you can make a gluten-free version by using gluten-free croutons or omitting them altogether. Additionally, ensure that any dressings or sauces used are gluten-free as well.",bad,hallucination
+What's the calorie count for the lava cake?,unanswerable,not-in-dataset,"The recipe for Chocolate Lava Cake serves 4, but the calorie count isn't specified in the recipe. Typically, a serving of lava cake can range from 300 to 500 calories, depending on the ingredients used and portion size.
+
+If you need more specific information about calorie counts, you might find calorie calculators or nutrition databases useful when entering the specific quantities of each ingredient. Would you like help with anything else?",bad,hallucination
+How do I make ramen?,unanswerable,not-in-dataset,"I couldn't find a specific ramen recipe, but I can suggest alternatives like noodle soups or similar dishes. Would you like to explore those?",good,
+What's the best restaurant in town?,out-of-scope,off-topic,"I don't have information on local restaurants, but I can help you find recipes or suggest cooking ideas. What type of cuisine or dish are you interested in?",good,
+How do I fix my dishwasher?,out-of-scope,off-topic,"I don't have information on fixing dishwashers, but I recommend checking the manufacturer's manual or looking for troubleshooting guides online. Common issues include clogged filters, malfunctioning pumps, or electrical problems. If you're unable to resolve the issue, consider contacting a professional technician.",bad,wrong-scope
+Can I make the falafel with canned chickpeas?,edge-case,recipe-forbids-substitution,"Yes, you can use canned chickpeas to make falafel! In fact, using canned chickpeas can save you time, as they are already cooked. Just be sure to drain and rinse them before using in your falafel mixture. If you’d like, I can help you find a falafel recipe that includes canned chickpeas. Would you like that?",bad,incorrect-details
+Can I substitute almond milk in the pancakes?,substitution,not-in-recipe,"Yes, you can substitute almond milk in pancakes. Use an equal amount of almond milk in place of regular milk for a dairy-free option. If you're looking for alternatives, some other options include:
+
+1. Soy milk
+2. Oat milk
+3. Coconut milk
+4. Lactose-free milk
+
+Each of these can work well, depending on your flavor preferences and dietary needs. Would you like a specific pancake recipe that uses almond milk?",bad,hallucination
+How long should I fry the falafel?,recipe-detail,specific,"I don't have a specific falafel recipe available to provide exact frying time. However, generally, falafel should be fried for about 3 to 4 minutes on each side or until they are golden brown and crispy. If you're looking for a more detailed recipe or tips, let me know!",bad,incorrect-details
+Can I make the Thai green curry vegetarian?,dietary,check-ingredients,"Yes, you can easily make Thai green curry vegetarian by substituting meat with vegetables and plant-based proteins. Here are some common substitutions:
+
+1. **Protein:** Use tofu, tempeh, or seitan instead of chicken or beef.
+2. **Vegetables:** Add a variety of vegetables like bell peppers, zucchini, carrots, and eggplant.
+3. **Coconut Milk:** Ensure the curry paste is vegetarian-friendly, as some may contain shrimp paste.
+
+If you'd like, I can help you find a vegetarian green curry recipe. Would you like me to do that?",bad,hallucination
+What wine goes well with carbonara?,out-of-scope,not-in-dataset,"A classic choice for pairing with carbonara is a white wine, particularly a medium-bodied option like Pinot Grigio or Chardonnay. These wines complement the creaminess of the sauce and the richness of the pancetta. A light red wine, like a Pinot Noir, can also work well if you prefer red. The key is to go for wines that are not too heavy, allowing the flavors of the dish to shine through.",bad,wrong-scope

@@ -1,0 +1,21 @@
+question,category,type
+How do I make spaghetti carbonara?,specific-recipe,direct
+What can I cook with chicken and coconut milk?,ingredient-search,ingredient-based
+I want something easy and healthy for dinner,preference,vague
+How do I make sushi?,missing-recipe,not-in-collection
+What temperature should I set my oven to for the lava cake?,recipe-detail,specific
+I want pasta,different-phrasing,vague
+What Italian dishes do you have?,different-phrasing,browse-collection
+What should I cook tonight?,different-phrasing,vague
+Can I use bacon instead of guanciale in carbonara?,substitution,not-in-recipe
+Is the Caesar salad vegetarian?,dietary,check-ingredients
+Is the Caesar salad gluten-free?,dietary,check-ingredients
+What's the calorie count for the lava cake?,unanswerable,not-in-dataset
+How do I make ramen?,unanswerable,not-in-dataset
+What's the best restaurant in town?,out-of-scope,off-topic
+How do I fix my dishwasher?,out-of-scope,off-topic
+Can I make the falafel with canned chickpeas?,edge-case,recipe-forbids-substitution
+Can I substitute almond milk in the pancakes?,substitution,not-in-recipe
+How long should I fry the falafel?,recipe-detail,specific
+Can I make the Thai green curry vegetarian?,dietary,check-ingredients
+What wine goes well with carbonara?,out-of-scope,not-in-dataset
